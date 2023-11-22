@@ -1,0 +1,5 @@
+{
+  "buildCommand": "node ace build --production",
+  "devCommand": "node ace serve --watch",
+  "framework": null
+}
