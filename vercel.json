@@ -1,5 +1,6 @@
 {
-  "buildCommand": "node ace build --production && cd build && npm install --production && node server.js ",
+  "buildCommand": "node ace build --production && cd build && npm install --production ",
   "devCommand": "node ace serve --watch",
-  "framework": null
+  "framework": null,
+  "outputDirectory": "build"
 }
