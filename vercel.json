@@ -1,5 +1,5 @@
 {
-  "buildCommand": "node ace build --production",
+  "buildCommand": "node ace build --production && cd build && npm install --production && node server.js ",
   "devCommand": "node ace serve --watch",
   "framework": null
 }
