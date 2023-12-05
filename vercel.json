@@ -1,5 +1,5 @@
 {
-  "buildCommand": "node ace build --production && cd build && npm install --production && cp ../.env .",
+  "buildCommand": "npm build && cd build && npm install --production && cp ../.env .",
   "devCommand": "node ace serve --watch",
   "framework": null,
   "outputDirectory": "build",
